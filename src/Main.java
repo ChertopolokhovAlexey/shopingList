@@ -77,8 +77,9 @@ public class Main {
         for (String s : list) {
             String itemLower = s.toLowerCase();
             if (itemLower.contains(lookingItem)) {
-                System.out.println((count++) + ". " + s);
+                System.out.println((count) + ". " + s);
             }
+            count++;
         }
     }
 }
